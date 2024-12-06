@@ -184,11 +184,8 @@ border: 1px solid rgba(242, 242, 242, 1);
     cursor: pointer;
     transition: opacity 0.2s;
 }
-.button-search:active {
-    opacity: 0.7;
-}
 
-.fa-magnifying-glass {
+.fa-magnifying-glass {          
     display: none;
 }
 
@@ -207,10 +204,14 @@ border: 1px solid rgba(242, 242, 242, 1);
 
 .bts {
     display: flex;
+    margin-top: 0;
+    margin-left: -40px;
 }
 
 .element {
     position: relative;
+    list-style-type: none;
+
 }
 
 .bt-economique {
@@ -475,7 +476,6 @@ border: 1px solid rgba(242, 242, 242, 1);
 
 .heb-cards {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
     box-sizing: border-box;
@@ -485,13 +485,14 @@ border: 1px solid rgba(242, 242, 242, 1);
     display: flex;
     flex-direction: column;
     width: 213.33px;
-    height: 170.25px;
+    height: 180.25px;
     padding: 0px 0px 15px 0px;
     border-radius: 20px;
     background: rgba(255, 255, 255, 1);
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .hebergement-cards img {
